@@ -1,0 +1,19 @@
+.main-heading {
+  color: rgb(141, 211, 211);
+}
+
+.sub-heading {
+  color: rgb(6, 6, 131);
+}
+
+.article-box {
+  background-color: rgba(180, 229, 244, 0.411);
+}
+
+.article-heading {
+  color: rgb(238, 148, 148);
+  font-style: italic;
+}
+#container {
+  width: 500px;
+}

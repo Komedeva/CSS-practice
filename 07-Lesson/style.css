@@ -1,0 +1,23 @@
+section{
+  color: brown;
+}
+
+*{
+  color:darkcyan;
+}
+
+p {
+  color: blueviolet;
+}
+
+h1 {
+  color: aquamarine;
+}
+
+.example {
+  color: rgb(239, 170, 85);
+}
+
+#example {
+  color: blue;
+}

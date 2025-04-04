@@ -1,0 +1,23 @@
+a {
+  color: cadetblue;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  background-color: aquamarine;
+}
+
+a:focus {
+  outline: 1px solid palegreen;
+}
+
+a:active {
+  color: rgb(246, 170, 39);
+}
