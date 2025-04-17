@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="description" content="A simple semantic elements page" />
+    <style>
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="success.html" meta="GET">
+ <fieldset>
+  <legend>Lengthy Registration Form</legend>
+
+      <!-- Name -->
+      <label for="e_name">
+        Name:
+        <input
+          name="e_name"
+          id="e_name"
+          type="text"
+          required
+          placeholder="Name"
+        />
+      </label>
+
+      <!-- Email -->
+      <label for="e_email">
+        Email:
+        <input
+          name="e_email"
+          id="e_email"
+          type="email"
+          required
+          placeholder="example@gmail.com"
+        />
+      </label>
+      <!-- Phone -->
+      <label for="e_phone">
+        Phone:
+        <input
+          name="e_phone"
+          id="e_phone"
+          type="tel"
+          required
+          placeholder="+91089392839"
+        />
+      </label>
+      <!-- Password -->
+      <label for="e_password">
+        Password:
+        <input
+          name="e_password"
+          id="e_password"
+          type="password"
+          required
+          placeholder="password"
+        />
+      </label>
+
+      <!-- URL -->
+      <label for="e_url">
+        Website:
+        <input
+          name="e_url"
+          id="e_url"
+          type="url"
+          required
+          placeholder="https://primeinspire.com"
+        />
+      </label>
+
+      <!-- Number -->
+      <label for="e_quantity">
+        quantity:
+        <input name="e_quantity" id="e_quantity" type="number" required />
+      </label>
+
+      <!-- Date -->
+      <label for="e_date">
+        quantity:
+        <input
+          name="e_date"
+          id="e_date"
+          type="date"
+          required
+          value="2025-04-01"
+        />
+      </label>
+
+      <!-- Date Readonly-->
+      <label for="e_date">
+        quantity:
+        <input
+          name="e_date"
+          id="e_date"
+          type="date"
+          required
+          value="2025-04-01"
+          readonly
+        />
+      </label>
+
+      <!-- Date Disable-->
+      <label for="e_date">
+        quantity:
+        <input
+          name="e_date"
+          id="e_date"
+          type="date"
+          required
+          value="2025-04-01"
+          disabled
+        />
+      </label>
+
+      <!-- Time -->
+      <label for="e_time">
+        Time:
+        <input name="e_time" id="e_time" type="time" required />
+      </label>
+
+      <!-- Month -->
+      <label for="e_month">
+        Month:
+        <input name="e_month" id="e_month" type="month" required />
+      </label>
+
+      <!-- Week -->
+      <label for="e_week">
+        Week:
+        <input name="e_week" id="e_week" type="week" required />
+      </label>
+
+      <!-- Date Time Local -->
+      <label for="e_dtl">
+        Date Time Local:
+        <input name="e_dtl" id="e_dtl" type="datetime-local" required />
+      </label>
+
+      <div>
+        <p>Select Gender</p>
+        <!-- Radio Button -->
+        <label for="e_male">
+          <input name="e_gender" id="e_male" type="radio" value="Male" /> Male
+        </label>
+
+        <label for="e_female">
+          <input name="e_gender" id="e_female" type="radio" value="Female" />
+          Female
+        </label>
+
+        <label for="e_other">
+          <input name="e_gender" id="e_other" type="radio" value="Other" />
+          Other
+        </label>
+
+        <label for="e_pnts">
+          <input
+            name="e_gender"
+            id="e_pnts"
+            type="radio"
+            value="Prefer not to say"
+          />
+          Prefer not to say
+        </label>
+      </div>
+      <!-- Breakfast -->
+      <div>
+        <p>Food Time Selection:</p>
+        <label for="e_breakfast">
+          <input
+            name="e_food"
+            id="e_breakfast"
+            type="checkbox"
+            value="Breakfast"
+          />
+          Breakfast
+        </label>
+
+        <!-- lunch -->
+        <label for="e_lunch">
+          <input name="e_food" id="e_lunch" type="checkbox" value="Lunch" />
+          Lunch
+        </label>
+
+        <!-- dinner -->
+        <label for="e_dinner">
+          <input name="e_dinner" id="e_dinner" type="checkbox" value="Dinner" />
+          Dinner
+        </label>
+      </div>
+
+      <!-- Search Bar -->
+      <label for="e_search">
+        Search:
+        <input
+          name="e_search"
+          id="e_search"
+          type="search"
+          placeholder="Search for..."
+        />
+        <input type="submit" value="Search" />
+      </label>
+
+      <!-- Upload -->
+      <label for="e_upload">
+        Upload:
+        <input
+          name="e_upload"
+          id="e_upload"
+          type="file"
+          accept="image/*"
+          multiple
+        />
+        <input type="submit" value="Upload" />
+      </label>
+
+      <!-- Color -->
+      <label for="e_color">
+        Upload:
+        <input name="e_color" id="e_color" type="color" required />
+        <input type="submit" value="Upload" />
+      </label>
+
+      <!-- Select Country -->
+      <label for="e_color">
+        Select Country:
+        <select name="e_country" 
+        id="e_country">
+        <option value="IN">India</option>
+        <option value="US">United States</option>
+        <option value="UK">United Kindom</option>
+      </select>
+      </label>
+
+      <!--Grouped Select List -->
+      <label for="e_food_selection">
+        Select Food:
+        <select name="e_food_selection" 
+        id="e_food_selection">
+        <optgroup label="Breakfast">
+          <option value="Breakfast1">Breakfast1</option>
+          <option value="Breakfast2">Breakfast2</option>
+          <option value="Breakfast3">Breakfast3</option>
+        </optgroup>
+
+        <optgroup label="Lunch">
+          <option value="Lunch1">Lunch1</option>
+          <option value="Lunch2">Lunch2</option>
+          <option value="Lunch3">Lunch3</option>
+        </optgroup>
+
+        <optgroup label="Dinner">
+          <option value="Dinner1">Dinner1</option>
+          <option value="Dinner2">Dinner2</option>
+          <option value="Dinner3">Dinner3</option>
+        </optgroup>
+      </select>
+      </label>
+
+      <!-- Data List for Icecreams -->
+      <label for="e_icecream">
+        Select Icecream:
+       <input list="icecream-flavours" 
+       name="e_icecream"
+       id="e_icecream">
+       <datalist id="icecream-flavours">
+        <option value="Chocolate">
+        <option value="Coconut">
+        <option value="Mint">
+        <option value="Strawberry">
+        <option value="Vanilla">
+       </datalist>
+      </label>
+
+      <!-- TextArea -->
+      <label for="e_message">
+        Message:
+       <textarea
+       name="e_message"
+       id="e_message"
+       cols="30"
+       rows="5">
+      </textarea>
+      </label>
+
+      <!-- 3-Step Range & Smoother one -->
+      <label for="e_range">
+        Range:
+       <input type="range"
+       name="e_range"
+       id="e_range"
+       min="0"
+       max="3">
+      </label>
+       <input type="range"
+       name="e_range"
+       id="e_range"
+       min="0"
+       max="100">
+      </label>
+
+      <!-- Fancy Button -->
+ <label for="e_fancy">
+     <input
+       type="image"
+       src="https://cdn.pixabay.com/photo/2022/04/27/20/21/order-7161274_640.png"
+       width="120px">
+        </label>
+
+        <!-- Hidden -->
+     <input 
+     type="text" 
+     name="e_hidden"
+     id="e_hidden"
+     value="Data is hidden">
+
+     <!-- Reset -->
+      <button type="reset">Reset</button>
+
+      <button type="submit">Sign up</button>
+    </fieldset>
+    </form>
+  </body>
+</html>
