@@ -1,0 +1,18 @@
+* {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1000px;
+  /* min-width: 500px; */
+  height: auto;
+  padding: 25px;
+  background-color: burlywood;
+  color: white;
+}
+
+/* Зміна кольору з коричневого на синій при зменшенні екрану */
+@media screen and (max-width: 500px) {
+  .container {
+    background-color: rgb(8, 172, 172);
+  }
+}

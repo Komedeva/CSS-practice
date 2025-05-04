@@ -1,0 +1,42 @@
+.box {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid brown;
+  position: relative;
+}
+
+.relative, .absolute, .fixed, .sticky {
+  width: 150px;
+  height: 100px;
+}
+
+.relative {
+  background-color: antiquewhite;
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+.absolute {
+  background-color: rgb(204, 178, 145);
+  position: absolute;
+  right: 15%;
+  bottom: 15%;
+}
+
+/* scrolling with  */
+.fixed {
+  background-color: rgb(162, 128, 83);
+  width: 200px;
+  position: fixed;
+  top: 12px;
+  right: 12px;
+}
+
+/* scrolling untill it reaches 20pixels from the top */
+.sticky {
+  background-color: rgb(188, 127, 48);
+  position: sticky;
+  top: 50px;
+}

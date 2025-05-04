@@ -1,0 +1,21 @@
+.box {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: rgb(130, 130, 231);
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* align-items: center; */
+  /* align-items: end; */
+  align-items: center;
+  justify-content: center; 
+}
+
+.box-item {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(208, 255, 255);
+  border: 1px solid brown;
+}
